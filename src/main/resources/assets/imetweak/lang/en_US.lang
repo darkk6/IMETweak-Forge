@@ -1,0 +1,15 @@
+imetweak.setting.gui.title=IME Tweak Options
+imetweak.setting.general.comment=General settings
+imetweak.setting.enable=Enable IME Tweak
+imetweak.setting.enable.comment=Enable IME Tweak mod
+imetweak.setting.notDisable=Don't disable IME
+imetweak.setting.notDisable.comment=Change input method instead of disable gui
+imetweak.setting.guiEnableIME=Auto switch list
+imetweak.setting.guiEnableIME.comment=Auto switch IME status when these gui is open
+imetweak.setting.internal.comment=Internal settings, don NOT change if you don't know
+imetweak.setting.hasTextList=GUI with textfield
+imetweak.setting.hasTextList.comment=List of full gui class name with textfield
+imetweak.setting.noTextList=GUI without textfield
+imetweak.setting.noTextList.comment=List of full gui class name without textfield
+imetweak.setting.useColorFix=Allow use color prefix in game
+imetweak.setting.useColorFix.comment=Allow input color prefix (the section sign) in game. In multiplay use color prefix without same type mod installed in server will make you be kicked.

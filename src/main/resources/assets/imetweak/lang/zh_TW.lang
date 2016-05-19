@@ -1,0 +1,15 @@
+imetweak.setting.gui.title=IME Tweak 設定
+imetweak.setting.general.comment=一般設定，可在遊戲中修改
+imetweak.setting.enable=啟用 IME Tweak
+imetweak.setting.enable.comment=啟用 IME Tweak 功能
+imetweak.setting.notDisable=不使用「停用輸入法」
+imetweak.setting.notDisable.comment=改為將輸入法切為英數模式，而非停用輸入法
+imetweak.setting.guiEnableIME=自動切換列表
+imetweak.setting.guiEnableIME.comment=哪些 GUI 預設會切回上次輸入法的狀態
+imetweak.setting.internal.comment=內部設定，請勿任意更改
+imetweak.setting.hasTextList=含有文字方塊
+imetweak.setting.hasTextList.comment=有輸入方塊的 GUI 類別全名
+imetweak.setting.noTextList=沒有文字方塊
+imetweak.setting.noTextList.comment=沒有輸入方塊的 GUI 類別全名
+imetweak.setting.useColorFix=允許使用顏色代碼
+imetweak.setting.useColorFix.comment=允許輸入顏色代碼(章節符號)，多人遊戲中若伺服器沒使用同類型 Mod ，使用顏色代碼可能會被踢出遊戲
