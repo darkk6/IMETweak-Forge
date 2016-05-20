@@ -17,11 +17,11 @@ import org.objectweb.asm.tree.VarInsnNode;
 import tw.darkk6.mcmod.imetweak.util.Log;
 
 public class IMETweakTransformer implements IClassTransformer {
-
+	
 	private static final boolean isDev = Boolean.parseBoolean(System.getProperty("isDev","false"));
 	//目標 Class 的 Full ClassName
 	private static final String TARGET_CLASS = "net.minecraft.util.ChatAllowedCharacters";
-	private static final String TARGET_CLASS_SRG = "f";
+	private static final String TARGET_CLASS_SRG = "g"; // 1.9.4
 	
 	//目標 Method 的各種可能名稱
 	private static final String REAL_METHOD_NAME = "isAllowedCharacter";
