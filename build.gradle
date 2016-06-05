@@ -75,6 +75,7 @@ processResources
 
 jar {
         manifest {
-        attributes 'FMLCorePlugin': 'tw.darkk6.mcmod.imetweak.asm.IMETweakCoreMod'
+        attributes 'FMLCorePlugin': 'tw.darkk6.mcmod.imetweak.asm.IMETweakCoreMod',
+					'FMLCorePluginContainsFMLMod': 'true'
     }
 }

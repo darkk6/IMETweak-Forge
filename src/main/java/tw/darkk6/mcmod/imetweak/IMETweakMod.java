@@ -3,14 +3,14 @@ package tw.darkk6.mcmod.imetweak;
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 
-import jline.internal.Log;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import tw.darkk6.mcmod.imetweak.config.Config;
 import tw.darkk6.mcmod.imetweak.config.Reference;
+import tw.darkk6.mcmod.imetweak.util.Log;
 import tw.darkk6.mcmod.imetweak.util.Util;
 
 @Mod(modid = Reference.MODID, version = Reference.MOD_VER, name = Reference.MOD_NAME, clientSideOnly = true , guiFactory = Reference.GUI_FACTORY)
@@ -41,7 +41,7 @@ public class IMETweakMod {
 	}
 
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent e) {
+	public void postInit(FMLPostInitializationEvent e) {
 		if (!Util.isWindows()) {
 			Log.info("OS is not Windows, IME Tweak mod is disabled");
 			return;
